@@ -5,8 +5,21 @@ Description: Dit thema laat op de homepage een overzicht van posts zien met een 
 Version: 2.0
 */
 
+header {
+    background-image: url("img/mar-bustos-mHuhsfg7Vfs-unsplash\ \(1\).jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 0.7;
+        height: 400px;
+}
 h1 {
     display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display:flex;
     justify-content: center;
 }
 
@@ -14,3 +27,5 @@ li {
     display: flex;
     justify-content: center;
 }
+
+
