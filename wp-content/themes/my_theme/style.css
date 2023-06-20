@@ -16,6 +16,9 @@ header {
         opacity: 0.7;
         height: 500px;
 }
+
+
+
 h1 {
     display: flex;
     justify-content: center;
@@ -29,6 +32,16 @@ h2 {
 li {
     display: flex;
     justify-content: center;
+    
 }
 
+p {
+    color: black;
+    
+}
+
+a {
+    color: black
+    /* display: none; */
+}
 

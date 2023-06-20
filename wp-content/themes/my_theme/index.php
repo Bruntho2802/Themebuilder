@@ -19,6 +19,7 @@
         <!-- De onderstaande regel code gebruikt de WordPress-functie  -->
         <h1><a href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a></h1>
         <nav>
+            
 
             <!-- De onderstaande regel code gebruikt de WordPress-functie  -->
             <?php
