@@ -14,19 +14,7 @@
 </head>
 
 <body>
-    <header>
-
-        <!-- De onderstaande regel code gebruikt de WordPress-functie  -->
-        <h1><a href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a></h1>
-        <nav>
-            
-
-            <!-- De onderstaande regel code gebruikt de WordPress-functie  -->
-            <?php
-                 wp_nav_menu(array('theme_location' => 'primary', 'container' => 'nav', 'container_class' => 'site-navigation'));
-            ?>
-        </nav>
-    </header>
+    <?php require_once "header.php"; ?>
 
     <main>
     <!-- De onderstaande regels code kijkt of en hoeveel posts er zijn en plaatst deze op de pagina.  -->
@@ -36,10 +24,12 @@
                 the_post();
                 ?>
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-                    <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                    <div class="entry-content">
+                     <div class="entry-content">
+                        
+                        <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                         <?php the_content(); ?>
-                    </div>
+                </article>
+                    
                 </article>
                 <?php
             endwhile;
@@ -48,6 +38,7 @@
             <p>Geen berichten gevonden.</p>
         <?php endif; ?>
     </main>
+
 
     <footer>
             <!-- Voeg hier je footerinhoud toe -->

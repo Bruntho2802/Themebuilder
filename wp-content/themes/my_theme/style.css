@@ -6,16 +6,18 @@ Version: 2.0
 */
 
 header {
+    background-color: transparent;
     background-image: url("img/mar-bustos-mHuhsfg7Vfs-unsplash\ \(1\).jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        margin-left: -9px;
-        margin-right: -9px;
-        margin-top: -22px;
-        opacity: 0.7;
-        height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: -9px;
+    margin-right: -9px;
+    margin-top: -22px;
+    opacity: 0.7;
+    height: 500px;
 }
+
 
 
 
@@ -25,23 +27,84 @@ h1 {
 }
 
 h2 {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
 li {
     display: flex;
     justify-content: center;
-    
+
 }
 
 p {
     color: black;
-    
+
+
 }
 
 a {
-    color: black
-    /* display: none; */
+    color: black;
+}
+
+.content {
+    margin-top: 50px;
+    height: 350px;
+    background-color: white;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    margin-top: 550x;
+    background-color: white;
+    height: 850px;
+    opacity: 98%;
+
+}
+
+.text {
+    width: 50%;
+}
+
+.foto {
+    margin-left: 15%;
+    margin-top: 26px;
+}
+
+.text2 {
+    width: 50%;
+}
+
+.foto2 {
+    margin-right: 15%;
+    margin-left: 2%;
+    margin-top: 26px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }
 
