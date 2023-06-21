@@ -24,6 +24,7 @@ header {
 h1 {
     display: flex;
     justify-content: center;
+    color: #000000;
 }
 
 h2 {
@@ -59,29 +60,11 @@ a {
 article {
     margin-top: 550x;
     background-color: white;
-    height: 850px;
     opacity: 98%;
+    
 
 }
 
-.text {
-    width: 50%;
-}
-
-.foto {
-    margin-left: 15%;
-    margin-top: 26px;
-}
-
-.text2 {
-    width: 50%;
-}
-
-.foto2 {
-    margin-right: 15%;
-    margin-left: 2%;
-    margin-top: 26px;
-}
 
 ul {
     list-style-type: none;
@@ -89,7 +72,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    
+
 }
 
 li {
@@ -108,3 +91,13 @@ li a:hover {
     background-color: #111;
 }
 
+footer {
+    background-color: #333;
+    height: 100px;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.85;
+}

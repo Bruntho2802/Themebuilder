@@ -41,7 +41,8 @@
 
 
     <footer>
-            <!-- Voeg hier je footerinhoud toe -->
+        <?php
+   	require_once "footer.php"; ?>
     </footer>
 </body>
 </html>
