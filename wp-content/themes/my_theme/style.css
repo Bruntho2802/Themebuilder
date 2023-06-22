@@ -32,6 +32,12 @@ h2 {
     justify-content: center;
 }
 
+.entry-title {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
 li {
     display: flex;
     justify-content: center;
@@ -45,7 +51,7 @@ p {
 }
 
 a {
-    color: black;
+    color: black; 
 }
 
 .content {
@@ -61,7 +67,6 @@ article {
     margin-top: 550x;
     background-color: white;
     opacity: 98%;
-    
 
 }
 
@@ -71,7 +76,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(42, 41, 41, 0.7);
 
 }
 
@@ -99,5 +104,9 @@ footer {
     font-size: 20px;
     align-items: center;
     justify-content: center;
-    opacity: 0.85;
+    opacity: 0.7;
+}
+
+footer a {
+    background-color: #333;
 }
